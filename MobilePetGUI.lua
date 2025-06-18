@@ -75,6 +75,6 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local remote = ReplicatedStorage:WaitForChild("DuplicatePetEvent") -- must exist in your game
 
 button.MouseButton1Click:Connect(function()
-	local petName = "BeePet" -- Or dynamic based on selection
+	local petName = "Bee" -- Or dynamic based on selection
 	remote:FireServer(petName)
 end)
